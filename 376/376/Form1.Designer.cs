@@ -89,7 +89,7 @@
             // adLabel
             // 
             this.adLabel.AutoSize = true;
-            this.adLabel.Location = new System.Drawing.Point(333, 75);
+            this.adLabel.Location = new System.Drawing.Point(333, 63);
             this.adLabel.Name = "adLabel";
             this.adLabel.Size = new System.Drawing.Size(0, 13);
             this.adLabel.TabIndex = 1;
@@ -115,7 +115,7 @@
             // logicSuccess
             // 
             this.logicSuccess.AutoSize = true;
-            this.logicSuccess.Location = new System.Drawing.Point(129, 70);
+            this.logicSuccess.Location = new System.Drawing.Point(129, 63);
             this.logicSuccess.Name = "logicSuccess";
             this.logicSuccess.Size = new System.Drawing.Size(0, 13);
             this.logicSuccess.TabIndex = 4;
@@ -132,7 +132,7 @@
             // 
             // adminButton
             // 
-            this.adminButton.Location = new System.Drawing.Point(240, 70);
+            this.adminButton.Location = new System.Drawing.Point(321, 37);
             this.adminButton.Name = "adminButton";
             this.adminButton.Size = new System.Drawing.Size(75, 23);
             this.adminButton.TabIndex = 6;
@@ -245,7 +245,7 @@
             // 
             // logOutButton
             // 
-            this.logOutButton.Location = new System.Drawing.Point(323, 37);
+            this.logOutButton.Location = new System.Drawing.Point(402, 37);
             this.logOutButton.Name = "logOutButton";
             this.logOutButton.Size = new System.Drawing.Size(75, 23);
             this.logOutButton.TabIndex = 16;
@@ -420,7 +420,7 @@
             // 
             // listEmpButton
             // 
-            this.listEmpButton.Location = new System.Drawing.Point(844, 127);
+            this.listEmpButton.Location = new System.Drawing.Point(467, 75);
             this.listEmpButton.Name = "listEmpButton";
             this.listEmpButton.Size = new System.Drawing.Size(75, 23);
             this.listEmpButton.TabIndex = 31;
@@ -432,7 +432,7 @@
             // 
             this.listBox.FullRowSelect = true;
             this.listBox.GridLines = true;
-            this.listBox.Location = new System.Drawing.Point(844, 156);
+            this.listBox.Location = new System.Drawing.Point(467, 104);
             this.listBox.Name = "listBox";
             this.listBox.Size = new System.Drawing.Size(84, 172);
             this.listBox.TabIndex = 32;
@@ -455,7 +455,7 @@
             this.groupBox4.Controls.Add(this.groupBox1);
             this.groupBox4.Controls.Add(this.addButton);
             this.groupBox4.Controls.Add(this.addedSuccessLabel);
-            this.groupBox4.Location = new System.Drawing.Point(24, 152);
+            this.groupBox4.Location = new System.Drawing.Point(24, 75);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(437, 253);
             this.groupBox4.TabIndex = 33;
@@ -484,7 +484,7 @@
             this.groupBox5.Controls.Add(this.groupBox2);
             this.groupBox5.Controls.Add(this.label4);
             this.groupBox5.Controls.Add(this.groupBox3);
-            this.groupBox5.Location = new System.Drawing.Point(467, 152);
+            this.groupBox5.Location = new System.Drawing.Point(24, 341);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(365, 178);
             this.groupBox5.TabIndex = 34;
@@ -495,7 +495,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1177, 531);
+            this.ClientSize = new System.Drawing.Size(584, 531);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.listBox);
