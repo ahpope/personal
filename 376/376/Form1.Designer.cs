@@ -420,7 +420,7 @@
             // 
             // listEmpButton
             // 
-            this.listEmpButton.Location = new System.Drawing.Point(915, 55);
+            this.listEmpButton.Location = new System.Drawing.Point(844, 127);
             this.listEmpButton.Name = "listEmpButton";
             this.listEmpButton.Size = new System.Drawing.Size(75, 23);
             this.listEmpButton.TabIndex = 31;
@@ -432,9 +432,9 @@
             // 
             this.listBox.FullRowSelect = true;
             this.listBox.GridLines = true;
-            this.listBox.Location = new System.Drawing.Point(915, 84);
+            this.listBox.Location = new System.Drawing.Point(844, 156);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(84, 180);
+            this.listBox.Size = new System.Drawing.Size(84, 172);
             this.listBox.TabIndex = 32;
             this.listBox.UseCompatibleStateImageBehavior = false;
             this.listBox.View = System.Windows.Forms.View.List;
