@@ -28,78 +28,145 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.employeeListButton = new System.Windows.Forms.Button();
-            this.employeeLookUpButton = new System.Windows.Forms.Button();
-            this.employeeAddButton = new System.Windows.Forms.Button();
-            this.listBox = new System.Windows.Forms.ListBox();
-            this.lookUpTextBox = new System.Windows.Forms.TextBox();
-            this.randomLabel = new System.Windows.Forms.Label();
+            this.nameLabelF2 = new System.Windows.Forms.Label();
+            this.empNumberF2 = new System.Windows.Forms.Label();
+            this.payLabelF2 = new System.Windows.Forms.Label();
+            this.adminLabelF2 = new System.Windows.Forms.Label();
+            this.totPayLabelF2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // employeeListButton
+            // nameLabelF2
             // 
-            this.employeeListButton.Location = new System.Drawing.Point(13, 40);
-            this.employeeListButton.Name = "employeeListButton";
-            this.employeeListButton.Size = new System.Drawing.Size(75, 55);
-            this.employeeListButton.TabIndex = 0;
-            this.employeeListButton.Text = "View Employee List";
-            this.employeeListButton.UseVisualStyleBackColor = true;
-            this.employeeListButton.Click += new System.EventHandler(this.employeeListButton_Click);
+            this.nameLabelF2.AutoSize = true;
+            this.nameLabelF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameLabelF2.Location = new System.Drawing.Point(319, 176);
+            this.nameLabelF2.Name = "nameLabelF2";
+            this.nameLabelF2.Size = new System.Drawing.Size(61, 25);
+            this.nameLabelF2.TabIndex = 0;
+            this.nameLabelF2.Text = "name";
             // 
-            // employeeLookUpButton
+            // empNumberF2
             // 
-            this.employeeLookUpButton.Location = new System.Drawing.Point(12, 114);
-            this.employeeLookUpButton.Name = "employeeLookUpButton";
-            this.employeeLookUpButton.Size = new System.Drawing.Size(75, 35);
-            this.employeeLookUpButton.TabIndex = 1;
-            this.employeeLookUpButton.Text = "Look Up Employee";
-            this.employeeLookUpButton.UseVisualStyleBackColor = true;
-            this.employeeLookUpButton.Click += new System.EventHandler(this.employeeLookUpButton_Click);
+            this.empNumberF2.AutoSize = true;
+            this.empNumberF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.empNumberF2.Location = new System.Drawing.Point(317, 125);
+            this.empNumberF2.Name = "empNumberF2";
+            this.empNumberF2.Size = new System.Drawing.Size(142, 25);
+            this.empNumberF2.TabIndex = 1;
+            this.empNumberF2.Text = "empNumberF2";
             // 
-            // employeeAddButton
+            // payLabelF2
             // 
-            this.employeeAddButton.Location = new System.Drawing.Point(13, 155);
-            this.employeeAddButton.Name = "employeeAddButton";
-            this.employeeAddButton.Size = new System.Drawing.Size(75, 37);
-            this.employeeAddButton.TabIndex = 2;
-            this.employeeAddButton.Text = "Add Employee";
-            this.employeeAddButton.UseVisualStyleBackColor = true;
+            this.payLabelF2.AutoSize = true;
+            this.payLabelF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.payLabelF2.Location = new System.Drawing.Point(321, 233);
+            this.payLabelF2.Name = "payLabelF2";
+            this.payLabelF2.Size = new System.Drawing.Size(44, 25);
+            this.payLabelF2.TabIndex = 2;
+            this.payLabelF2.Text = "pay";
             // 
-            // listBox
+            // adminLabelF2
             // 
-            this.listBox.FormattingEnabled = true;
-            this.listBox.Location = new System.Drawing.Point(230, 12);
-            this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(120, 95);
-            this.listBox.TabIndex = 3;
+            this.adminLabelF2.AutoSize = true;
+            this.adminLabelF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adminLabelF2.Location = new System.Drawing.Point(321, 285);
+            this.adminLabelF2.Name = "adminLabelF2";
+            this.adminLabelF2.Size = new System.Drawing.Size(65, 25);
+            this.adminLabelF2.TabIndex = 3;
+            this.adminLabelF2.Text = "admin";
             // 
-            // lookUpTextBox
+            // totPayLabelF2
             // 
-            this.lookUpTextBox.Location = new System.Drawing.Point(94, 123);
-            this.lookUpTextBox.Name = "lookUpTextBox";
-            this.lookUpTextBox.Size = new System.Drawing.Size(100, 20);
-            this.lookUpTextBox.TabIndex = 4;
+            this.totPayLabelF2.AutoSize = true;
+            this.totPayLabelF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totPayLabelF2.Location = new System.Drawing.Point(323, 337);
+            this.totPayLabelF2.Name = "totPayLabelF2";
+            this.totPayLabelF2.Size = new System.Drawing.Size(80, 25);
+            this.totPayLabelF2.TabIndex = 4;
+            this.totPayLabelF2.Text = "totalpay";
             // 
-            // randomLabel
+            // label1
             // 
-            this.randomLabel.AutoSize = true;
-            this.randomLabel.Location = new System.Drawing.Point(270, 267);
-            this.randomLabel.Name = "randomLabel";
-            this.randomLabel.Size = new System.Drawing.Size(35, 13);
-            this.randomLabel.TabIndex = 5;
-            this.randomLabel.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(208, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(235, 39);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Employee Info";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(127, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(184, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Employee Number: ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(127, 176);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(162, 25);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Employee Name:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(127, 233);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 25);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Pay Rate: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(127, 285);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(135, 25);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Admin Status:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(128, 337);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(101, 25);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Total Pay:";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(692, 517);
-            this.Controls.Add(this.randomLabel);
-            this.Controls.Add(this.lookUpTextBox);
-            this.Controls.Add(this.listBox);
-            this.Controls.Add(this.employeeAddButton);
-            this.Controls.Add(this.employeeLookUpButton);
-            this.Controls.Add(this.employeeListButton);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.totPayLabelF2);
+            this.Controls.Add(this.adminLabelF2);
+            this.Controls.Add(this.payLabelF2);
+            this.Controls.Add(this.empNumberF2);
+            this.Controls.Add(this.nameLabelF2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -109,11 +176,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button employeeListButton;
-        private System.Windows.Forms.Button employeeLookUpButton;
-        private System.Windows.Forms.Button employeeAddButton;
-        private System.Windows.Forms.ListBox listBox;
-        private System.Windows.Forms.TextBox lookUpTextBox;
-        private System.Windows.Forms.Label randomLabel;
+        private System.Windows.Forms.Label nameLabelF2;
+        private System.Windows.Forms.Label empNumberF2;
+        private System.Windows.Forms.Label payLabelF2;
+        private System.Windows.Forms.Label adminLabelF2;
+        private System.Windows.Forms.Label totPayLabelF2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

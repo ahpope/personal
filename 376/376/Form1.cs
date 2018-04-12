@@ -31,6 +31,13 @@ namespace _376
             startPunch.Enabled = false;
             outPunch.Enabled = false;
             submitTimeButton.Enabled = false;
+            addButton.Enabled = false;
+            removeEmployeeButton.Enabled = false;
+            removeEmpButton.Enabled = false;
+            removeTextBox.Enabled = false;
+            listEmpButton.Enabled = false;
+            listBox.Enabled = false;
+            logOutButton.Enabled = false;
         }
 
         public void employeeNumButton_Click(object sender, EventArgs e)
@@ -49,6 +56,8 @@ namespace _376
                 punchButton.Enabled = true;
                 adminButton.Enabled = true;
                 stubButton.Enabled = true;
+                listEmpButton.Enabled = true;
+                logOutButton.Enabled = true;
             }
             
         }
@@ -56,22 +65,19 @@ namespace _376
         private void adminButton_Click(object sender, EventArgs e)
         {
             bool adCheck;
-            Form2 form2 = new Form2();
+            
             adCheck = logic.checkAdmin(employeeNum);
             if (adCheck == true)
             {
                 adLabel.Text = "Welcome Admin";
-                adminButton.Enabled = false;
-                punchButton.Enabled = false;
-                stubButton.Enabled = false;
                 addEmployeeButton.Enabled = true;
-                
-                //form2.Show();
+                removeEmployeeButton.Enabled = true;
             }
             if(adCheck == false)
             {
                 adLabel.Text = "ERROR: USER IS NOT ADMIN";
             }
+            listBox.Clear();
         }
 
         private void addEmployeeButton_Click(object sender, EventArgs e)
@@ -79,7 +85,10 @@ namespace _376
             employeeNameBox.Enabled = true;
             employeePayBox.Enabled = true;
             adminNoButton.Enabled = true;
-            adminYesButton.Enabled = true; 
+            adminYesButton.Enabled = true;
+            addButton.Enabled = true;
+            addedSuccessLabel.Text = " ";
+            listBox.Clear();
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -102,6 +111,7 @@ namespace _376
             adminYesButton.Enabled = false;
             employeeNameBox.Clear();
             employeePayBox.Clear();
+            listBox.Clear();
         }
 
         private void logOutButton_Click(object sender, EventArgs e)
@@ -117,8 +127,13 @@ namespace _376
             punchButton.Enabled = false;
             adminButton.Enabled = false;
             stubButton.Enabled = false;
+            removeEmployeeButton.Enabled = false;
+            listEmpButton.Enabled = false;
+            logOutButton.Enabled = false;
             adLabel.Text = " ";
             logicSuccess.Text = " ";
+            removedLabel.Text = " ";
+            listBox.Clear();
         }
 
         private void punchButton_Click(object sender, EventArgs e)
@@ -126,11 +141,11 @@ namespace _376
             startPunch.Enabled = true;
             outPunch.Enabled = true;
             submitTimeButton.Enabled = true;
+            listBox.Clear();
         }
 
         private void submitTimeButton_Click(object sender, EventArgs e)
         {
-            
             if (startAMButton.Checked == true || startPMButton.Checked == true)
             {
                 if (endAMButton.Checked == true || endPMButton.Checked == true)
@@ -143,12 +158,6 @@ namespace _376
                             int inTime = Convert.ToInt32(startPunch.Text);
                             int outTime = Convert.ToInt32(outPunch.Text);
                             int totalTime = 0;
-
-                           
-                            //if(endPMButton.Checked == true)
-                            //{
-                            //    outTime = 24 - (outTime + 12);
-                            //}
                             
                             if(startPMButton.Checked == true && endAMButton.Checked == true)
                             {
@@ -175,11 +184,54 @@ namespace _376
                             totalTimeLabel.Text = Convert.ToString(totalTime);
                             logic.addHours(employeeNum, totalTime);
                             logic.addPay(employeeNum, totalTime);
+                            listBox.Clear();
                         }
                     }
                 }
+            } 
+        }
+
+        private void stubButton_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            string name = logic.findEmpName(employeeNum);
+            double pay = logic.findEmpPay(employeeNum);
+            bool admin = logic.checkAdmin(employeeNum);
+            double totPay = logic.findTotPay(employeeNum);
+
+            form2.display(name, pay, admin, employeeNum, totPay);
+            listBox.Clear();
+        }
+
+        private void removeEmployeeButton_Click(object sender, EventArgs e)
+        {
+            removeEmpButton.Enabled = true;
+            removeTextBox.Enabled = true;
+            listBox.Clear();
+        }
+
+        private void removeEmpButton_Click(object sender, EventArgs e)
+        {
+            int num = Convert.ToInt32(removeTextBox.Text);
+            logic.removeEmployee(num);
+            removedLabel.Text = "Removed!";
+            removeTextBox.Clear();
+        }
+
+        private void listEmpButton_Click(object sender, EventArgs e)
+        {
+            listBox.Clear();
+            listBox.Columns.Add("Name", 100);
+
+            ListViewItem itm;
+            Employee employee2 = new Employee();
+            for(int i = 0; i < logic.employeeCount; i++)
+            {
+                employee2 = logic.returnEmployee(i);
+                itm = new ListViewItem(employee2.employeeName);
+                listBox.Items.Add(itm);
             }
-            
         }
     }
 }

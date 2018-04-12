@@ -14,5 +14,5 @@ namespace _376
         public bool isAdmin { set; get; } = false;
         public string employeeName { set; get; }
         public double totalPay {set; get;}
-}
+    }
 }

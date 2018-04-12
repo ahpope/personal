@@ -20,15 +20,21 @@ namespace _376
             InitializeComponent();
         }
 
-        public void employeeListButton_Click(object sender, EventArgs e)
+        public void display(string name, double pay, bool admin, int empNum, double totPay)
         {
+            nameLabelF2.Text = name;
+            payLabelF2.Text = Convert.ToString(pay);
+            empNumberF2.Text = Convert.ToString(empNum);
+            totPayLabelF2.Text = Convert.ToString(totPay);
             
-            
+
+            if (admin == true)
+            {
+                adminLabelF2.Text = "Is Admin";
+            }
+            else adminLabelF2.Text = "Not Admin";
         }
 
-        private void employeeLookUpButton_Click(object sender, EventArgs e)
-        {
-            
-        }
+     
     }
 }

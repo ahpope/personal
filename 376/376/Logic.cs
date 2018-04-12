@@ -8,7 +8,7 @@ namespace _376
 {
     public class Logic
     {
-        public List<Employee> list = new List<Employee>();
+        public static List<Employee> list = new List<Employee>();
         public int employeeCount = 4;
               
         public void defaultCharacters()
@@ -23,7 +23,7 @@ namespace _376
             Employee employee2 = new Employee();
             employee2.employeeNumber = 2;
             employee2.employeeName = "Megan Petersen";
-            employee2.payRate = 5;
+            employee2.payRate = 15;
             list.Add(employee2);
 
             Employee employee3 = new Employee();
@@ -42,7 +42,7 @@ namespace _376
         public bool checkEmployeeStorage(int empNum)
         {
             defaultCharacters();
-            for(int i = 0; i < list.Count; i++)
+            for(int i = 0; i < employeeCount; i++)
             {
                 if (list[i].employeeNumber == empNum)
                 {
@@ -84,8 +84,7 @@ namespace _376
             {
                 if (list[i].employeeNumber == employeeNum)
                 {
-                    list[i].hours += num;
-                    
+                    list[i].hours += num;  
                 }
             }
         }
@@ -99,6 +98,58 @@ namespace _376
                     list[i].totalPay = list[i].hours * list[i].payRate;
                 }
             }
+        }
+
+        public string findEmpName(int employeeNum)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].employeeNumber == employeeNum)
+                {
+                    return list[i].employeeName;
+                }
+            }
+            return " ";
+        }
+
+        public double findEmpPay(int employeeNum)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].employeeNumber == employeeNum)
+                {
+                    return list[i].payRate;
+                }
+            }
+            return 0;
+        }
+
+        public double findTotPay(int employeeNum)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].employeeNumber == employeeNum)
+                {
+                    return list[i].totalPay;
+                }
+            }
+            return 0;
+        }
+
+        public void removeEmployee(int employeeNum)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].employeeNumber == employeeNum)
+                {
+                    employeeCount--;
+                    list.Remove(list[i]);
+                }
+            }
+        }
+        public Employee returnEmployee(int count)
+        {
+            return list[count];
         }
     }
 }

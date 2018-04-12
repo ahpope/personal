@@ -9,3 +9,14 @@ C:\Users\payoh\source\repos\376\376\obj\Debug\376.csproj.CoreCompileInputs.cache
 C:\Users\payoh\source\repos\376\376\obj\Debug\376.exe
 C:\Users\payoh\source\repos\376\376\obj\Debug\376.pdb
 C:\Users\payoh\source\repos\376\376\obj\Debug\_376.Form2.resources
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\376.csprojResolveAssemblyReference.cache
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\_376.Form1.resources
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\_376.Form2.resources
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\_376.Properties.Resources.resources
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\376.csproj.GenerateResource.Cache
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\376.csproj.CoreCompileInputs.cache
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\376.exe
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\obj\Debug\376.pdb
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\bin\Debug\376.exe.config
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\bin\Debug\376.exe
+C:\Users\payoh\OneDrive\Documents\GitHub\personal\376\376\bin\Debug\376.pdb
