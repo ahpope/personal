@@ -70,43 +70,49 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 40);
+            this.label1.Location = new System.Drawing.Point(42, 77);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.Size = new System.Drawing.Size(182, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Employee #";
             // 
             // adLabel
             // 
             this.adLabel.AutoSize = true;
-            this.adLabel.Location = new System.Drawing.Point(333, 63);
+            this.adLabel.Location = new System.Drawing.Point(666, 121);
+            this.adLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.adLabel.Name = "adLabel";
-            this.adLabel.Size = new System.Drawing.Size(0, 13);
+            this.adLabel.Size = new System.Drawing.Size(0, 25);
             this.adLabel.TabIndex = 1;
             this.adLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // employeeNumTextBox
             // 
-            this.employeeNumTextBox.Location = new System.Drawing.Point(118, 40);
+            this.employeeNumTextBox.Location = new System.Drawing.Point(236, 77);
+            this.employeeNumTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.employeeNumTextBox.Name = "employeeNumTextBox";
-            this.employeeNumTextBox.Size = new System.Drawing.Size(100, 20);
+            this.employeeNumTextBox.Size = new System.Drawing.Size(196, 31);
             this.employeeNumTextBox.TabIndex = 2;
             // 
             // employeeNumButton
             // 
-            this.employeeNumButton.Location = new System.Drawing.Point(240, 36);
+            this.employeeNumButton.Location = new System.Drawing.Point(480, 69);
+            this.employeeNumButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.employeeNumButton.Name = "employeeNumButton";
-            this.employeeNumButton.Size = new System.Drawing.Size(75, 23);
+            this.employeeNumButton.Size = new System.Drawing.Size(150, 44);
             this.employeeNumButton.TabIndex = 3;
             this.employeeNumButton.Text = "Log-In";
             this.employeeNumButton.UseVisualStyleBackColor = true;
@@ -115,16 +121,18 @@
             // logicSuccess
             // 
             this.logicSuccess.AutoSize = true;
-            this.logicSuccess.Location = new System.Drawing.Point(129, 63);
+            this.logicSuccess.Location = new System.Drawing.Point(258, 121);
+            this.logicSuccess.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.logicSuccess.Name = "logicSuccess";
-            this.logicSuccess.Size = new System.Drawing.Size(0, 13);
+            this.logicSuccess.Size = new System.Drawing.Size(0, 25);
             this.logicSuccess.TabIndex = 4;
             // 
             // punchButton
             // 
-            this.punchButton.Location = new System.Drawing.Point(23, 30);
+            this.punchButton.Location = new System.Drawing.Point(46, 58);
+            this.punchButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.punchButton.Name = "punchButton";
-            this.punchButton.Size = new System.Drawing.Size(75, 23);
+            this.punchButton.Size = new System.Drawing.Size(150, 44);
             this.punchButton.TabIndex = 5;
             this.punchButton.Text = "Punch";
             this.punchButton.UseVisualStyleBackColor = true;
@@ -132,9 +140,10 @@
             // 
             // adminButton
             // 
-            this.adminButton.Location = new System.Drawing.Point(321, 37);
+            this.adminButton.Location = new System.Drawing.Point(642, 71);
+            this.adminButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.adminButton.Name = "adminButton";
-            this.adminButton.Size = new System.Drawing.Size(75, 23);
+            this.adminButton.Size = new System.Drawing.Size(150, 44);
             this.adminButton.TabIndex = 6;
             this.adminButton.Text = "Admin";
             this.adminButton.UseVisualStyleBackColor = true;
@@ -142,9 +151,10 @@
             // 
             // stubButton
             // 
-            this.stubButton.Location = new System.Drawing.Point(245, 148);
+            this.stubButton.Location = new System.Drawing.Point(490, 285);
+            this.stubButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.stubButton.Name = "stubButton";
-            this.stubButton.Size = new System.Drawing.Size(75, 23);
+            this.stubButton.Size = new System.Drawing.Size(150, 44);
             this.stubButton.TabIndex = 7;
             this.stubButton.Text = "View Stubb";
             this.stubButton.UseVisualStyleBackColor = true;
@@ -152,9 +162,10 @@
             // 
             // addEmployeeButton
             // 
-            this.addEmployeeButton.Location = new System.Drawing.Point(12, 42);
+            this.addEmployeeButton.Location = new System.Drawing.Point(24, 81);
+            this.addEmployeeButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.addEmployeeButton.Name = "addEmployeeButton";
-            this.addEmployeeButton.Size = new System.Drawing.Size(75, 35);
+            this.addEmployeeButton.Size = new System.Drawing.Size(150, 67);
             this.addEmployeeButton.TabIndex = 8;
             this.addEmployeeButton.Text = "Add Employee";
             this.addEmployeeButton.UseVisualStyleBackColor = true;
@@ -162,42 +173,47 @@
             // 
             // employeeNameBox
             // 
-            this.employeeNameBox.Location = new System.Drawing.Point(96, 99);
+            this.employeeNameBox.Location = new System.Drawing.Point(192, 190);
+            this.employeeNameBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.employeeNameBox.Name = "employeeNameBox";
-            this.employeeNameBox.Size = new System.Drawing.Size(100, 20);
+            this.employeeNameBox.Size = new System.Drawing.Size(196, 31);
             this.employeeNameBox.TabIndex = 9;
             // 
             // a
             // 
             this.a.AutoSize = true;
-            this.a.Location = new System.Drawing.Point(6, 99);
+            this.a.Location = new System.Drawing.Point(12, 190);
+            this.a.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.a.Name = "a";
-            this.a.Size = new System.Drawing.Size(84, 13);
+            this.a.Size = new System.Drawing.Size(169, 25);
             this.a.TabIndex = 10;
             this.a.Text = "Employee Name";
             // 
             // employeePayButton
             // 
             this.employeePayButton.AutoSize = true;
-            this.employeePayButton.Location = new System.Drawing.Point(6, 128);
+            this.employeePayButton.Location = new System.Drawing.Point(12, 246);
+            this.employeePayButton.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.employeePayButton.Name = "employeePayButton";
-            this.employeePayButton.Size = new System.Drawing.Size(74, 13);
+            this.employeePayButton.Size = new System.Drawing.Size(150, 25);
             this.employeePayButton.TabIndex = 11;
             this.employeePayButton.Text = "Employee Pay";
             // 
             // employeePayBox
             // 
-            this.employeePayBox.Location = new System.Drawing.Point(96, 128);
+            this.employeePayBox.Location = new System.Drawing.Point(192, 246);
+            this.employeePayBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.employeePayBox.Name = "employeePayBox";
-            this.employeePayBox.Size = new System.Drawing.Size(100, 20);
+            this.employeePayBox.Size = new System.Drawing.Size(196, 31);
             this.employeePayBox.TabIndex = 12;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 163);
+            this.label2.Location = new System.Drawing.Point(18, 313);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(84, 25);
             this.label2.TabIndex = 13;
             this.label2.Text = "Admin?";
             // 
@@ -205,18 +221,21 @@
             // 
             this.groupBox1.Controls.Add(this.adminNoButton);
             this.groupBox1.Controls.Add(this.adminYesButton);
-            this.groupBox1.Location = new System.Drawing.Point(90, 154);
+            this.groupBox1.Location = new System.Drawing.Point(180, 296);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(154, 53);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(308, 102);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             // 
             // adminNoButton
             // 
             this.adminNoButton.AutoSize = true;
-            this.adminNoButton.Location = new System.Drawing.Point(94, 19);
+            this.adminNoButton.Location = new System.Drawing.Point(188, 37);
+            this.adminNoButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.adminNoButton.Name = "adminNoButton";
-            this.adminNoButton.Size = new System.Drawing.Size(39, 17);
+            this.adminNoButton.Size = new System.Drawing.Size(70, 29);
             this.adminNoButton.TabIndex = 1;
             this.adminNoButton.TabStop = true;
             this.adminNoButton.Text = "No";
@@ -225,9 +244,10 @@
             // adminYesButton
             // 
             this.adminYesButton.AutoSize = true;
-            this.adminYesButton.Location = new System.Drawing.Point(18, 19);
+            this.adminYesButton.Location = new System.Drawing.Point(36, 37);
+            this.adminYesButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.adminYesButton.Name = "adminYesButton";
-            this.adminYesButton.Size = new System.Drawing.Size(43, 17);
+            this.adminYesButton.Size = new System.Drawing.Size(81, 29);
             this.adminYesButton.TabIndex = 0;
             this.adminYesButton.TabStop = true;
             this.adminYesButton.Text = "Yes";
@@ -235,9 +255,10 @@
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(12, 217);
+            this.addButton.Location = new System.Drawing.Point(24, 417);
+            this.addButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(75, 23);
+            this.addButton.Size = new System.Drawing.Size(150, 44);
             this.addButton.TabIndex = 15;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
@@ -245,9 +266,10 @@
             // 
             // logOutButton
             // 
-            this.logOutButton.Location = new System.Drawing.Point(402, 37);
+            this.logOutButton.Location = new System.Drawing.Point(804, 71);
+            this.logOutButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.logOutButton.Name = "logOutButton";
-            this.logOutButton.Size = new System.Drawing.Size(75, 23);
+            this.logOutButton.Size = new System.Drawing.Size(150, 44);
             this.logOutButton.TabIndex = 16;
             this.logOutButton.Text = "Log Out";
             this.logOutButton.UseVisualStyleBackColor = true;
@@ -256,48 +278,54 @@
             // addedSuccessLabel
             // 
             this.addedSuccessLabel.AutoSize = true;
-            this.addedSuccessLabel.Location = new System.Drawing.Point(108, 226);
+            this.addedSuccessLabel.Location = new System.Drawing.Point(216, 435);
+            this.addedSuccessLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.addedSuccessLabel.Name = "addedSuccessLabel";
-            this.addedSuccessLabel.Size = new System.Drawing.Size(0, 13);
+            this.addedSuccessLabel.Size = new System.Drawing.Size(0, 25);
             this.addedSuccessLabel.TabIndex = 17;
             // 
             // startPunch
             // 
-            this.startPunch.Location = new System.Drawing.Point(76, 83);
+            this.startPunch.Location = new System.Drawing.Point(152, 160);
+            this.startPunch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.startPunch.Name = "startPunch";
-            this.startPunch.Size = new System.Drawing.Size(100, 20);
+            this.startPunch.Size = new System.Drawing.Size(196, 31);
             this.startPunch.TabIndex = 18;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 86);
+            this.label3.Location = new System.Drawing.Point(40, 165);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(82, 25);
             this.label3.TabIndex = 19;
             this.label3.Text = "Time In";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 116);
+            this.label4.Location = new System.Drawing.Point(40, 223);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.Size = new System.Drawing.Size(99, 25);
             this.label4.TabIndex = 20;
             this.label4.Text = "Time Out";
             // 
             // outPunch
             // 
-            this.outPunch.Location = new System.Drawing.Point(77, 113);
+            this.outPunch.Location = new System.Drawing.Point(154, 217);
+            this.outPunch.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.outPunch.Name = "outPunch";
-            this.outPunch.Size = new System.Drawing.Size(100, 20);
+            this.outPunch.Size = new System.Drawing.Size(196, 31);
             this.outPunch.TabIndex = 21;
             // 
             // submitTimeButton
             // 
-            this.submitTimeButton.Location = new System.Drawing.Point(76, 150);
+            this.submitTimeButton.Location = new System.Drawing.Point(152, 288);
+            this.submitTimeButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.submitTimeButton.Name = "submitTimeButton";
-            this.submitTimeButton.Size = new System.Drawing.Size(75, 23);
+            this.submitTimeButton.Size = new System.Drawing.Size(150, 44);
             this.submitTimeButton.TabIndex = 22;
             this.submitTimeButton.Text = "Submit";
             this.submitTimeButton.UseVisualStyleBackColor = true;
@@ -307,18 +335,21 @@
             // 
             this.groupBox2.Controls.Add(this.startPMButton);
             this.groupBox2.Controls.Add(this.startAMButton);
-            this.groupBox2.Location = new System.Drawing.Point(195, 76);
+            this.groupBox2.Location = new System.Drawing.Point(390, 146);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(158, 27);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox2.Size = new System.Drawing.Size(316, 52);
             this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
             // 
             // startPMButton
             // 
             this.startPMButton.AutoSize = true;
-            this.startPMButton.Location = new System.Drawing.Point(107, 9);
+            this.startPMButton.Location = new System.Drawing.Point(214, 17);
+            this.startPMButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.startPMButton.Name = "startPMButton";
-            this.startPMButton.Size = new System.Drawing.Size(41, 17);
+            this.startPMButton.Size = new System.Drawing.Size(75, 29);
             this.startPMButton.TabIndex = 1;
             this.startPMButton.TabStop = true;
             this.startPMButton.Text = "PM";
@@ -327,9 +358,10 @@
             // startAMButton
             // 
             this.startAMButton.AutoSize = true;
-            this.startAMButton.Location = new System.Drawing.Point(29, 7);
+            this.startAMButton.Location = new System.Drawing.Point(58, 13);
+            this.startAMButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.startAMButton.Name = "startAMButton";
-            this.startAMButton.Size = new System.Drawing.Size(41, 17);
+            this.startAMButton.Size = new System.Drawing.Size(75, 29);
             this.startAMButton.TabIndex = 0;
             this.startAMButton.TabStop = true;
             this.startAMButton.Text = "AM";
@@ -339,18 +371,21 @@
             // 
             this.groupBox3.Controls.Add(this.endPMButton);
             this.groupBox3.Controls.Add(this.endAMButton);
-            this.groupBox3.Location = new System.Drawing.Point(195, 113);
+            this.groupBox3.Location = new System.Drawing.Point(390, 217);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(158, 29);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox3.Size = new System.Drawing.Size(316, 56);
             this.groupBox3.TabIndex = 24;
             this.groupBox3.TabStop = false;
             // 
             // endPMButton
             // 
             this.endPMButton.AutoSize = true;
-            this.endPMButton.Location = new System.Drawing.Point(107, 7);
+            this.endPMButton.Location = new System.Drawing.Point(214, 13);
+            this.endPMButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.endPMButton.Name = "endPMButton";
-            this.endPMButton.Size = new System.Drawing.Size(41, 17);
+            this.endPMButton.Size = new System.Drawing.Size(75, 29);
             this.endPMButton.TabIndex = 1;
             this.endPMButton.TabStop = true;
             this.endPMButton.Text = "PM";
@@ -359,9 +394,10 @@
             // endAMButton
             // 
             this.endAMButton.AutoSize = true;
-            this.endAMButton.Location = new System.Drawing.Point(29, 7);
+            this.endAMButton.Location = new System.Drawing.Point(58, 13);
+            this.endAMButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.endAMButton.Name = "endAMButton";
-            this.endAMButton.Size = new System.Drawing.Size(41, 17);
+            this.endAMButton.Size = new System.Drawing.Size(75, 29);
             this.endAMButton.TabIndex = 0;
             this.endAMButton.TabStop = true;
             this.endAMButton.Text = "AM";
@@ -370,24 +406,27 @@
             // success2Label
             // 
             this.success2Label.AutoSize = true;
-            this.success2Label.Location = new System.Drawing.Point(157, 155);
+            this.success2Label.Location = new System.Drawing.Point(314, 298);
+            this.success2Label.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.success2Label.Name = "success2Label";
-            this.success2Label.Size = new System.Drawing.Size(0, 13);
+            this.success2Label.Size = new System.Drawing.Size(0, 25);
             this.success2Label.TabIndex = 25;
             // 
             // totalTimeLabel
             // 
             this.totalTimeLabel.AutoSize = true;
-            this.totalTimeLabel.Location = new System.Drawing.Point(34, 150);
+            this.totalTimeLabel.Location = new System.Drawing.Point(68, 288);
+            this.totalTimeLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.totalTimeLabel.Name = "totalTimeLabel";
-            this.totalTimeLabel.Size = new System.Drawing.Size(0, 13);
+            this.totalTimeLabel.Size = new System.Drawing.Size(0, 25);
             this.totalTimeLabel.TabIndex = 26;
             // 
             // removeEmployeeButton
             // 
-            this.removeEmployeeButton.Location = new System.Drawing.Point(299, 30);
+            this.removeEmployeeButton.Location = new System.Drawing.Point(598, 58);
+            this.removeEmployeeButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.removeEmployeeButton.Name = "removeEmployeeButton";
-            this.removeEmployeeButton.Size = new System.Drawing.Size(75, 38);
+            this.removeEmployeeButton.Size = new System.Drawing.Size(150, 73);
             this.removeEmployeeButton.TabIndex = 27;
             this.removeEmployeeButton.Text = "Remove Employee";
             this.removeEmployeeButton.UseVisualStyleBackColor = true;
@@ -395,16 +434,18 @@
             // 
             // removeTextBox
             // 
-            this.removeTextBox.Location = new System.Drawing.Point(332, 96);
+            this.removeTextBox.Location = new System.Drawing.Point(664, 185);
+            this.removeTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.removeTextBox.Name = "removeTextBox";
-            this.removeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.removeTextBox.Size = new System.Drawing.Size(196, 31);
             this.removeTextBox.TabIndex = 28;
             // 
             // removeEmpButton
             // 
-            this.removeEmpButton.Location = new System.Drawing.Point(299, 128);
+            this.removeEmpButton.Location = new System.Drawing.Point(598, 246);
+            this.removeEmpButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.removeEmpButton.Name = "removeEmpButton";
-            this.removeEmpButton.Size = new System.Drawing.Size(75, 23);
+            this.removeEmpButton.Size = new System.Drawing.Size(150, 44);
             this.removeEmpButton.TabIndex = 29;
             this.removeEmpButton.Text = "Remove";
             this.removeEmpButton.UseVisualStyleBackColor = true;
@@ -413,16 +454,18 @@
             // removedLabel
             // 
             this.removedLabel.AutoSize = true;
-            this.removedLabel.Location = new System.Drawing.Point(380, 130);
+            this.removedLabel.Location = new System.Drawing.Point(760, 250);
+            this.removedLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.removedLabel.Name = "removedLabel";
-            this.removedLabel.Size = new System.Drawing.Size(0, 13);
+            this.removedLabel.Size = new System.Drawing.Size(0, 25);
             this.removedLabel.TabIndex = 30;
             // 
             // listEmpButton
             // 
-            this.listEmpButton.Location = new System.Drawing.Point(467, 75);
+            this.listEmpButton.Location = new System.Drawing.Point(21, 41);
+            this.listEmpButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.listEmpButton.Name = "listEmpButton";
-            this.listEmpButton.Size = new System.Drawing.Size(75, 23);
+            this.listEmpButton.Size = new System.Drawing.Size(150, 44);
             this.listEmpButton.TabIndex = 31;
             this.listEmpButton.Text = "List";
             this.listEmpButton.UseVisualStyleBackColor = true;
@@ -432,9 +475,10 @@
             // 
             this.listBox.FullRowSelect = true;
             this.listBox.GridLines = true;
-            this.listBox.Location = new System.Drawing.Point(467, 104);
+            this.listBox.Location = new System.Drawing.Point(21, 97);
+            this.listBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(84, 172);
+            this.listBox.Size = new System.Drawing.Size(164, 327);
             this.listBox.TabIndex = 32;
             this.listBox.UseCompatibleStateImageBehavior = false;
             this.listBox.View = System.Windows.Forms.View.List;
@@ -455,9 +499,11 @@
             this.groupBox4.Controls.Add(this.groupBox1);
             this.groupBox4.Controls.Add(this.addButton);
             this.groupBox4.Controls.Add(this.addedSuccessLabel);
-            this.groupBox4.Location = new System.Drawing.Point(24, 75);
+            this.groupBox4.Location = new System.Drawing.Point(48, 144);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(437, 253);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox4.Size = new System.Drawing.Size(874, 487);
             this.groupBox4.TabIndex = 33;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Admin Privelages";
@@ -465,9 +511,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(233, 99);
+            this.label5.Location = new System.Drawing.Point(466, 190);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.Size = new System.Drawing.Size(188, 25);
             this.label5.TabIndex = 31;
             this.label5.Text = "Employee Number";
             // 
@@ -484,22 +531,34 @@
             this.groupBox5.Controls.Add(this.groupBox2);
             this.groupBox5.Controls.Add(this.label4);
             this.groupBox5.Controls.Add(this.groupBox3);
-            this.groupBox5.Location = new System.Drawing.Point(24, 341);
+            this.groupBox5.Location = new System.Drawing.Point(48, 656);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(365, 178);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox5.Size = new System.Drawing.Size(730, 342);
             this.groupBox5.TabIndex = 34;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Punch Card";
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.listEmpButton);
+            this.groupBox6.Controls.Add(this.listBox);
+            this.groupBox6.Location = new System.Drawing.Point(943, 161);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(200, 471);
+            this.groupBox6.TabIndex = 35;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "List Employees";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 531);
+            this.ClientSize = new System.Drawing.Size(1168, 1021);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.listBox);
-            this.Controls.Add(this.listEmpButton);
             this.Controls.Add(this.logOutButton);
             this.Controls.Add(this.adminButton);
             this.Controls.Add(this.logicSuccess);
@@ -507,6 +566,7 @@
             this.Controls.Add(this.employeeNumTextBox);
             this.Controls.Add(this.adLabel);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
@@ -519,6 +579,7 @@
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -568,6 +629,7 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox6;
     }
 }
 
