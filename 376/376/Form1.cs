@@ -42,6 +42,8 @@ namespace _376
 
         public void employeeNumButton_Click(object sender, EventArgs e)
         {
+            if (employeeNumTextBox.Text == "")
+                return;
             employeeNum = Convert.ToInt32(employeeNumTextBox.Text);
             empCheck = logic.checkEmployeeStorage(employeeNum);
             if(empCheck == false)
@@ -56,7 +58,7 @@ namespace _376
                 punchButton.Enabled = true;
                 adminButton.Enabled = true;
                 stubButton.Enabled = true;
-                listEmpButton.Enabled = true;
+                
                 logOutButton.Enabled = true;
             }
             
@@ -72,6 +74,7 @@ namespace _376
                 adLabel.Text = "Welcome Admin";
                 addEmployeeButton.Enabled = true;
                 removeEmployeeButton.Enabled = true;
+                listEmpButton.Enabled = true;
             }
             if(adCheck == false)
             {
