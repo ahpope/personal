@@ -29,13 +29,13 @@ namespace _376
             Employee employee3 = new Employee();
             employee3.employeeNumber = 3;
             employee3.employeeName = "Lily James";
-            employee3.payRate = 5;
+            employee3.payRate = 7;
             list.Add(employee3);
 
             Employee employee4 = new Employee();
             employee4.employeeNumber = 4;
             employee4.employeeName = "Peter Parker";
-            employee4.payRate = 5;
+            employee4.payRate = 10;
             list.Add(employee4);
         }
 
